@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CtoFConverter
 {
-    static void main(String[] args)
+    public static void main(String[] args)
     {
         double celsius = 0.0;
         double fahrenheit;
@@ -21,7 +21,7 @@ public class CtoFConverter
             else
             {
                 trash = in.nextLine();
-                System.out.println("Invalid input: " + trash + "Please enter a number.");
+                System.out.println("Invalid input: " + trash + " Please enter a number.");
             }
         }
         while (!done);
