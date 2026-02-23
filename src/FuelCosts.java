@@ -43,7 +43,8 @@ public class FuelCosts {
                 tankSize = in.nextDouble();
                 in.nextLine();
                 done = true;
-            } else {
+            } else
+            {
                 String trash = in.nextLine();
                 System.out.println("Invalid input: " + trash + " Please enter a number.");
             }
